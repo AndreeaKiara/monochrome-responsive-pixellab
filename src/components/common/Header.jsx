@@ -40,6 +40,14 @@ export default function Header() {
           <div className="header-controls">
             <ul>
               <li>
+                <form>
+                  <input type="text" placeholder="Search" />
+                  <button type="button">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                  </button>
+                </form>
+              </li>
+              <li>
                 <a href="/">
                   <i class="fa-solid fa-user"></i>
                 </a>

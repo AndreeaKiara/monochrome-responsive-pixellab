@@ -1,3 +1,45 @@
 .header-secondary {
-  background-image: url('/images/banners/banner.png') cover;
+  background: url('/images/banners/banner.png') no-repeat center center / cover;
+  height: 510px;
+
+  &-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 150px 0 150px;
+
+    i[class*='fa-'] {
+      font-size: 28px;
+    }
+
+    .header-connect {
+      color: $white;
+      text-transform: uppercase;
+
+      ul {
+        display: flex;
+        gap: 24px;
+      }
+    }
+
+    .header-controls {
+      ul {
+        display: flex;
+        gap: 20px;
+      }
+    }
+  }
+}
+
+.header-primary {
+  background: $brand-primary;
+  color: $white;
+  text-transform: uppercase;
+  padding: 14px 0;
+  font-size: 18px;
+
+  ul {
+    display: flex;
+    gap: 150px;
+  }
 }

@@ -5,7 +5,7 @@ export default function StyleGuide() {
         <button className="button button-primary">view all</button>
 
         <a href="/" className="button button-primary">
-          Hello
+          view all
         </a>
       </div>
     </>
