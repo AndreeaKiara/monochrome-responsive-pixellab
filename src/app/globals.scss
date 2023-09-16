@@ -17,7 +17,14 @@
 // ui
 @import './styles/ui/button';
 
+// common site components
 @import './styles/common/index';
+
+// home site components
+@import './styles/home/home-content';
+
+// catalog components
+@import './styles/catalog/index';
 
 body {
   font-size: 16px;

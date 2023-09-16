@@ -6,32 +6,47 @@ export default function Header() {
           <div className="header-connect">
             <ul>
               <li>
-                <a href="/">
+                <a
+                  href="/"
+                  title="YouTube"
+                >
                   <i class="fa-brands fa-youtube"></i>
                 </a>
               </li>
 
               <li>
-                <a href="/">
+                <a
+                  href="/"
+                  title="Facebook"
+                >
                   <i class="fa-brands fa-facebook"></i>
                 </a>
               </li>
 
               <li>
-                <a href="/">
+                <a
+                  href="/"
+                  title="Twitter"
+                >
                   <i class="fa-brands fa-twitter"></i>
                 </a>
               </li>
 
               <li>
-                <a href="/">
+                <a
+                  href="/"
+                  title="Instagram"
+                >
                   <i class="fa-brands fa-instagram"></i>
                 </a>
               </li>
 
               <li>
-                <a href="tel:+44 (0)10 23456789" title="Call us">
-                  call us +44 (0)10 23456789
+                <a
+                  href="tel:+44 (0)10 2345 6789"
+                  title="Call us"
+                >
+                  call us +44 (0)10 2345 6789
                 </a>
               </li>
             </ul>
@@ -41,26 +56,40 @@ export default function Header() {
             <ul>
               <li>
                 <form>
-                  <input type="text" placeholder="Search" />
-                  <button type="button">
+                  <input
+                    type="text"
+                    placeholder="Search"
+                    name="search-bar"
+                    id="search-bar"
+                  />
+                  <button type="submit">
                     <i class="fa-solid fa-magnifying-glass"></i>
                   </button>
                 </form>
               </li>
               <li>
-                <a href="/">
+                <a
+                  href="/"
+                  title="Account"
+                >
                   <i class="fa-solid fa-user"></i>
                 </a>
               </li>
 
               <li>
-                <a href="/">
+                <a
+                  href="/"
+                  title="Favourites"
+                >
                   <i class="fa-solid fa-heart"></i>
                 </a>
               </li>
 
               <li>
-                <a href="/">
+                <a
+                  href="/"
+                  title="Cart"
+                >
                   <i class="fa-solid fa-cart-shopping"></i>
                 </a>
               </li>
@@ -73,37 +102,55 @@ export default function Header() {
         <div className="container">
           <ul>
             <li>
-              <a href="/" title="New Arrivals">
+              <a
+                href="/"
+                title="New Arrivals"
+              >
                 New Arrivals
               </a>
             </li>
 
             <li>
-              <a href="/" title="Brands">
+              <a
+                href="/"
+                title="Brands"
+              >
                 Brands
               </a>
             </li>
 
             <li>
-              <a href="/" title="Mens">
+              <a
+                href="/"
+                title="Mens"
+              >
                 Mens
               </a>
             </li>
 
             <li>
-              <a href="/" title="Womens">
+              <a
+                href="/"
+                title="Womens"
+              >
                 Womens
               </a>
             </li>
 
             <li>
-              <a href="/" title="Accessories">
+              <a
+                href="/"
+                title="Accessories"
+              >
                 Accessories
               </a>
             </li>
 
             <li>
-              <a href="/" title="Lookbook">
+              <a
+                href="/"
+                title="Lookbook"
+              >
                 Lookbook
               </a>
             </li>

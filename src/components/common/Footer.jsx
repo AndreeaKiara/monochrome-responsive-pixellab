@@ -21,25 +21,37 @@ export default function Footer() {
         <nav className="footer-nav">
           <ul>
             <li>
-              <a href="/" title="style & fit advice">
+              <a
+                href="/"
+                title="style & fit advice"
+              >
                 style & fit advice
               </a>
             </li>
 
             <li>
-              <a href="/" title="faqs">
+              <a
+                href="/"
+                title="faqs"
+              >
                 faqs
               </a>
             </li>
 
             <li>
-              <a href="/" title="delivery">
+              <a
+                href="/"
+                title="delivery"
+              >
                 delivery
               </a>
             </li>
 
             <li>
-              <a href="/" title="exchange & returns">
+              <a
+                href="/"
+                title="exchange & returns"
+              >
                 exchange & returns
               </a>
             </li>
@@ -47,25 +59,37 @@ export default function Footer() {
 
           <ul>
             <li>
-              <a href="/" title="about us">
+              <a
+                href="/"
+                title="about us"
+              >
                 about us
               </a>
             </li>
 
             <li>
-              <a href="/" title="careers">
+              <a
+                href="/"
+                title="careers"
+              >
                 careers
               </a>
             </li>
 
             <li>
-              <a href="/" title="affiliates">
+              <a
+                href="/"
+                title="affiliates"
+              >
                 affiliates
               </a>
             </li>
 
             <li>
-              <a href="/" title="advertising">
+              <a
+                href="/"
+                title="advertising"
+              >
                 advertising
               </a>
             </li>
@@ -77,7 +101,12 @@ export default function Footer() {
             <label htmlFor="newsletter-sign-up">
               sign up for our newsletter
             </label>
-            <input type="email" />
+            <input
+              type="email"
+              id="newsletter-sign-up"
+              name="newsletter-sign-up"
+              placeholder="Email address"
+            />
 
             <input
               type="checkbox"
@@ -89,31 +118,43 @@ export default function Footer() {
               emails from Monochrome
             </label>
 
-            <button type="button">Submit</button>
+            <button type="submit">Submit</button>
           </form>
 
           <div className="footer-social">
             <ul>
               <li>
-                <a href="/">
+                <a
+                  href="/"
+                  title="YouTube"
+                >
                   <i class="fa-brands fa-youtube"></i>
                 </a>
               </li>
 
               <li>
-                <a href="/">
-                  <i class="fa-brands fa-facebook"></i>
+                <a
+                  href="/"
+                  title="Facebook"
+                >
+                  <i class="fa-brands fa-facebook-f"></i>
                 </a>
               </li>
 
               <li>
-                <a href="/">
+                <a
+                  href="/"
+                  title="Twitter"
+                >
                   <i class="fa-brands fa-twitter"></i>
                 </a>
               </li>
 
               <li>
-                <a href="/">
+                <a
+                  href="/"
+                  title="Instagram"
+                >
                   <i class="fa-brands fa-instagram"></i>
                 </a>
               </li>
