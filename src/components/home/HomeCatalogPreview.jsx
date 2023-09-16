@@ -4,7 +4,7 @@ export default function HomeCatalogPreview() {
   return (
     <section className="home-catalog-preview container">
       <header>
-        <h1>New</h1>
+        <h1>New Arrivals</h1>
       </header>
 
       <CatalogPreview></CatalogPreview>

@@ -27,6 +27,24 @@
         display: flex;
         gap: 20px;
       }
+
+      form {
+        border: 1px solid #ccc;
+        display: flex;
+        flex-direction: row-reverse;
+        font-size: 19px;
+      }
+
+      button {
+        border: none;
+        background: none;
+        padding: 8px 12px;
+      }
+
+      input {
+        border: none;
+        padding: 8px 6px;
+      }
     }
   }
 }

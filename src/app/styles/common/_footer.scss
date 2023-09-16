@@ -5,4 +5,35 @@
     display: flex;
     justify-content: space-between;
   }
+
+  &-connect {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  &-nav {
+    display: flex;
+    gap: 25%;
+  }
+
+  &-newsletter {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    input {
+      align-self: stretch;
+      padding: 8px 6px;
+    }
+  }
+
+  &-social {
+    width: 100%;
+
+    ul {
+      display: flex;
+      gap: 20px;
+    }
+  }
 }

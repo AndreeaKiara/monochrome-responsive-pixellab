@@ -8,7 +8,7 @@ export default function ProductTile() {
         >
           <picture>
             <img
-              src="/images/products/recently_viewed_thumbnail_2-1.jpg"
+              src="/images/products/recently_viewed_thumbnail_2-1.png"
               alt="Monochrome"
             />
           </picture>

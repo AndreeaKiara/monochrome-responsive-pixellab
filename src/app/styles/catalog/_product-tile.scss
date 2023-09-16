@@ -1,0 +1,35 @@
+.product-tile {
+  text-align: center;
+  font-weight: 700;
+  font-size: 22px;
+  margin-bottom: 72px;
+
+  &-header {
+    margin-bottom: 10px;
+  }
+
+  &-image {
+    display: block;
+    position: relative;
+
+    .img {
+      width: 100%;
+    }
+  }
+
+  .product-fav {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 20px;
+  }
+
+  &-title {
+    text-transform: uppercase;
+    margin-top: 24px;
+  }
+
+  .product-price {
+    font-weight: 300;
+  }
+}
