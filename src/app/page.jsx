@@ -1,5 +1,5 @@
 import Footer from '@/components/common/Footer';
-import Header from '@/components/common/Header';
+import Header2 from '@/components/common/Header2';
 import ProductTile from '@/components/catalog/ProductTile';
 import CatalogPreview from '@/components/catalog/CatalogPreview';
 import HomeCatalogPreview from '@/components/home/HomeCatalogPreview';
@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div className="home">
       <header className="header">
-        <Header></Header>
+        <Header2></Header2>
       </header>
 
       <main className="content">

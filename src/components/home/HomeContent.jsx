@@ -1,6 +1,12 @@
 export default function HomeContent() {
   return (
-    <div>
+    <div className="container">
+      <aside>
+        <img
+          src="/images/banners/home-content-desk.png"
+          alt="Desk"
+        />
+      </aside>
       <h1 className="home-content-title">Watches for entrepreneurs</h1>
 
       <p>

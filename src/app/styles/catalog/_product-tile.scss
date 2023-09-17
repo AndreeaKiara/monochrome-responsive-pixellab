@@ -8,12 +8,16 @@
     margin-bottom: 10px;
   }
 
+  &-title {
+    font-size: 22px;
+  }
+
   &-image {
     display: block;
-    position: relative;
 
     .img {
       width: 100%;
+      position: relative;
     }
   }
 
@@ -22,6 +26,10 @@
     right: 0;
     top: 0;
     padding: 20px;
+
+    i[class*='fa-'] {
+      font-size: 40px;
+    }
   }
 
   &-title {

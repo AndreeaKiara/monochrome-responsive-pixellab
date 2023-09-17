@@ -6,20 +6,20 @@ export default function ProductTile() {
           href="/"
           title="Monochrome"
         >
-          <picture>
+          <picture className="product-tile-image">
             <img
               src="/images/products/recently_viewed_thumbnail_2-1.png"
               alt="Monochrome"
             />
           </picture>
         </a>
-        <a
+        {/* <a
           href="/"
           className="product-fav"
           title="Add to favourites"
         >
           <i className="fa-regular fa-heart"></i>
-        </a>
+        </a> */}
 
         <h1 className="product-tile-title">
           <a

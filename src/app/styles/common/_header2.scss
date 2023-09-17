@@ -1,0 +1,32 @@
+.header {
+  &-secondary {
+    @include media-breakpoint-up(lg) {
+      background: url('/images/banners/banner.png') no-repeat center center /
+        cover;
+      height: 510px;
+
+      &-inner {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 30px 150px 0 150px;
+
+        .header-connect {
+          ul {
+            display: flex;
+            gap: 20px;
+          }
+        }
+
+        .header-controls {
+          display: flex;
+          justify-content: flex-end;
+
+          ul {
+            display: flex;
+            gap: 20px;
+          }
+        }
+      }
+    }
+  }
+}
