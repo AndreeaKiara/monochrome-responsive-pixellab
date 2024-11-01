@@ -1,4 +1,4 @@
-import Footer from '@/components/common/Footer';
+import Footer2 from '@/components/common/Footer2';
 import Header2 from '@/components/common/Header2';
 import ProductTile from '@/components/catalog/ProductTile';
 import CatalogPreview from '@/components/catalog/CatalogPreview';
@@ -14,7 +14,7 @@ export default function Home() {
       </header>
 
       <main className="content">
-        <div className="layout-grid">
+        {/* <div className="layout-grid">
           <HomeCatalogPreview></HomeCatalogPreview>
         </div>
 
@@ -30,11 +30,11 @@ export default function Home() {
 
         <div className="layout-grid">
           <HomeCatalogPreview></HomeCatalogPreview>
-        </div>
+        </div> */}
       </main>
 
       <footer className="footer">
-        <Footer></Footer>
+        <Footer2></Footer2>
       </footer>
     </div>
   );
