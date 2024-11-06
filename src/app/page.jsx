@@ -1,5 +1,5 @@
-import Footer2 from '@/components/common/Footer2';
-import Header2 from '@/components/common/Header2';
+import Footer from '@/components/common/Footer';
+import Header from '@/components/common/Header';
 import ProductTile from '@/components/catalog/ProductTile';
 import CatalogPreview from '@/components/catalog/CatalogPreview';
 import HomeCatalogPreview from '@/components/home/HomeCatalogPreview';
@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div className="home">
       <header className="header">
-        <Header2></Header2>
+        <Header></Header>
       </header>
 
       <main className="content">
@@ -34,7 +34,7 @@ export default function Home() {
       </main>
 
       <footer className="footer">
-        <Footer2></Footer2>
+        <Footer></Footer>
       </footer>
     </div>
   );

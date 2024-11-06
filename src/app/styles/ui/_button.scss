@@ -17,4 +17,19 @@
       color: $white;
     }
   }
+
+  &-secondary {
+    padding: 4px 16px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: $brand-primary;
+    background: transparent;
+    text-transform: uppercase;
+
+    &:hover {
+      background-color: $brand-primary;
+      color: $white;
+    }
+  }
 }

@@ -8,6 +8,10 @@ export default function StyleGuide() {
           view all
         </a>
       </div>
+
+      <div className="mt-4">
+        <button className="button button-secondary">Submit</button>
+      </div>
     </>
   );
 }

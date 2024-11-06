@@ -1,54 +1,31 @@
-export default function Header() {
+export default function Header2() {
   return (
     <>
       <section className="header-secondary">
-        <div className="header-mobile d-lg-none container">
-          <h1 className="header-mobile-title">Monochrome</h1>
-          <ul>
-            <li>
-              <a href="/" title="Account">
-                <i className="fa-solid fa-user"></i>
-              </a>
-            </li>
-
-            <li>
-              <a href="/" title="Favourites">
-                <i className="fa-solid fa-heart"></i>
-              </a>
-            </li>
-
-            <li>
-              <a href="/" title="Cart">
-                <i className="fa-solid fa-cart-shopping"></i>
-              </a>
-            </li>
-          </ul>
-        </div>
-
         <div className="header-secondary-inner container">
           <div className="header-connect d-none d-lg-block">
             <ul>
               <li>
                 <a href="/" title="YouTube">
-                  <i className="fa-brands fa-youtube"></i>
+                  <i class="fa-brands fa-youtube"></i>
                 </a>
               </li>
 
               <li>
                 <a href="/" title="Facebook">
-                  <i className="fa-brands fa-facebook"></i>
+                  <i class="fa-brands fa-facebook"></i>
                 </a>
               </li>
 
               <li>
                 <a href="/" title="Twitter">
-                  <i className="fa-brands fa-twitter"></i>
+                  <i class="fa-brands fa-twitter"></i>
                 </a>
               </li>
 
               <li>
                 <a href="/" title="Instagram">
-                  <i className="fa-brands fa-instagram"></i>
+                  <i class="fa-brands fa-instagram"></i>
                 </a>
               </li>
 
@@ -60,9 +37,13 @@ export default function Header() {
             </ul>
           </div>
 
-          <div className="header-controls d-none d-lg-block">
+          <div className="header-title d-block d-lg-none">
+            <h1>Monochrome</h1>
+          </div>
+
+          <div className="header-controls">
             <ul>
-              <li>
+              <li className="d-none d-lg-block">
                 <form className="header-search-bar">
                   <input
                     type="text"
@@ -77,19 +58,19 @@ export default function Header() {
               </li>
               <li>
                 <a href="/" title="Account">
-                  <i className="fa-solid fa-user"></i>
+                  <i class="fa-solid fa-user"></i>
                 </a>
               </li>
 
               <li>
                 <a href="/" title="Favourites">
-                  <i className="fa-solid fa-heart"></i>
+                  <i class="fa-solid fa-heart"></i>
                 </a>
               </li>
 
               <li>
                 <a href="/" title="Cart">
-                  <i className="fa-solid fa-cart-shopping"></i>
+                  <i class="fa-solid fa-cart-shopping"></i>
                 </a>
               </li>
             </ul>
@@ -98,7 +79,7 @@ export default function Header() {
       </section>
 
       <section className="header-primary">
-        <div className="container d-none d-lg-block">
+        <nav className="nav-primary d-none d-lg-block container">
           <ul>
             <li>
               <a href="/" title="New Arrivals">
@@ -136,7 +117,7 @@ export default function Header() {
               </a>
             </li>
           </ul>
-        </div>
+        </nav>
 
         <div className="header-search d-block d-lg-none container">
           <ul>
@@ -155,11 +136,17 @@ export default function Header() {
                   id="search-bar"
                 />
                 <button type="submit">
-                  <i className="fa-solid fa-magnifying-glass"></i>
+                  <i class="fa-solid fa-magnifying-glass"></i>
                 </button>
               </form>
             </li>
           </ul>
+        </div>
+
+        <div className="header-primary-banner d-block d-lg-none">
+          <a href="/" title="New in" class="btn-new-entries d-lg-none">
+            New in
+          </a>
         </div>
       </section>
     </>
