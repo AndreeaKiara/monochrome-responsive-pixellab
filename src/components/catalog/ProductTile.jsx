@@ -2,10 +2,7 @@ export default function ProductTile() {
   return (
     <article className="product-tile">
       <header className="product-tile-header">
-        <a
-          href="/"
-          title="Monochrome"
-        >
+        <a href="/" title="Monochrome">
           <picture className="product-tile-image">
             <img
               src="/images/products/recently_viewed_thumbnail_2-1.png"
@@ -13,19 +10,13 @@ export default function ProductTile() {
             />
           </picture>
         </a>
-        {/* <a
-          href="/"
-          className="product-fav"
-          title="Add to favourites"
-        >
+
+        <a href="/" className="product-fav" title="Add to favourites">
           <i className="fa-regular fa-heart"></i>
-        </a> */}
+        </a>
 
         <h1 className="product-tile-title">
-          <a
-            href="/"
-            title="Monochrome"
-          >
+          <a href="/" title="Monochrome">
             Monochrome
           </a>
         </h1>

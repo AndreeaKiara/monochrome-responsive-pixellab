@@ -141,13 +141,12 @@ export default function Header2() {
               </form>
             </li>
           </ul>
-        </div>
-
-        <div className="header-primary-banner d-block d-lg-none">
           <a href="/" title="New in" class="btn-new-entries d-lg-none">
             New in
           </a>
         </div>
+
+        <div className="header-primary-banner d-block d-lg-none"></div>
       </section>
     </>
   );

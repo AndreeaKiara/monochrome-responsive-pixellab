@@ -93,41 +93,43 @@ export default function Footer() {
 
         <section className="footer-connect">
           <div className="footer-connect-inner container">
-            <h1 className="d-lg-none">Let&rsquo;s connect</h1>
-            <form className="footer-newsletter">
-              <div className="newsletter">
-                <label htmlFor="newsletter-sign-up" className="d-lg-none">
-                  Be the first to receive exclusive offers
-                </label>
-                <label
-                  htmlFor="newsletter-sign-up"
-                  className="d-none d-lg-block label-lg"
-                >
-                  sign up for our newsletter
-                </label>
-                <input
-                  type="email"
-                  id="newsletter-sign-up"
-                  name="newsletter-sign-up"
-                  placeholder="Email address"
-                />
-              </div>
+            <div className="footer-connect-subscribe">
+              <h1 className="d-lg-none">Let&rsquo;s connect</h1>
+              <form className="footer-newsletter">
+                <div className="newsletter">
+                  <label htmlFor="newsletter-sign-up" className="d-lg-none">
+                    Be the first to receive exclusive offers
+                  </label>
+                  <label
+                    htmlFor="newsletter-sign-up"
+                    className="d-none d-lg-block label-lg"
+                  >
+                    sign up for our newsletter
+                  </label>
+                  <input
+                    type="email"
+                    id="newsletter-sign-up"
+                    name="newsletter-sign-up"
+                    placeholder="Email address"
+                  />
+                </div>
 
-              <button type="submit" className="button button-secondary">
-                Submit
-              </button>
-              <div className="consent">
-                <input
-                  type="checkbox"
-                  name="newsletter-consent"
-                  id="newsletter-consent"
-                />
-                <label htmlFor="newsletter-consent">
-                  I agree with <a href="/">Privacy Policy</a> and I want to
-                  receive emails from Monochrome
-                </label>
-              </div>
-            </form>
+                <button type="submit" className="button button-secondary">
+                  Submit
+                </button>
+                <div className="consent">
+                  <input
+                    type="checkbox"
+                    name="newsletter-consent"
+                    id="newsletter-consent"
+                  />
+                  <label htmlFor="newsletter-consent">
+                    I agree with <a href="/">Privacy Policy</a> and I want to
+                    receive emails from Monochrome
+                  </label>
+                </div>
+              </form>
+            </div>
 
             <div className="footer-social">
               <h1 className="d-lg-none">We are highly likeable</h1>

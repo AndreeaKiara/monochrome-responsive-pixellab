@@ -2,7 +2,6 @@
   background: $brand-secondary;
 
   @include media-breakpoint-up(lg) {
-    background: $brand-secondary;
     font-size: 22px;
     padding: 40px 0;
   }
@@ -17,11 +16,6 @@
       max-width: 1296px;
       margin: 0 auto;
     }
-  }
-
-  @include media-breakpoint-up(lg) {
-    display: flex;
-    justify-content: space-between;
   }
 
   &-contact {
@@ -114,10 +108,17 @@
   &-connect {
     padding: 32px 0;
 
+    &-inner {
+      padding: 0;
+    }
     h1 {
       font-size: 22px;
       text-align: center;
       margin-bottom: 24px;
+
+      @include media-breakpoint-up(lg) {
+        text-align: left;
+      }
     }
 
     .footer-newsletter {
@@ -153,6 +154,11 @@
 
       .newsletter {
         text-align: center;
+
+        @include media-breakpoint-up(lg) {
+          align-self: stretch;
+          text-align: start;
+        }
       }
       .consent {
         display: flex;
@@ -182,7 +188,7 @@
       justify-content: center;
       gap: 18px;
 
-      i {
+      i[class*='fa-'] {
         font-size: 32px;
       }
 

@@ -1,6 +1,7 @@
 .catalog-preview {
   .layout-grid & {
     display: grid;
+    grid-template-columns: repeat(2, 2fr);
     gap: 24px;
 
     @include media-breakpoint-up(lg) {
