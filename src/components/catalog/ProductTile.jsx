@@ -1,13 +1,10 @@
-export default function ProductTile() {
+export default function ProductTile({ productImage, altImage }) {
   return (
     <article className="product-tile">
       <header className="product-tile-header">
         <a href="/" title="Monochrome">
           <picture className="product-tile-image">
-            <img
-              src="/images/products/recently_viewed_thumbnail_2-1.png"
-              alt="Monochrome"
-            />
+            <img src={productImage} alt={altImage} />
           </picture>
         </a>
 

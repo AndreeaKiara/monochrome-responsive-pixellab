@@ -1,23 +1,16 @@
 import ProductTile from './ProductTile';
 
-export default function CatalogPreview() {
+export default function CatalogPreview({ images = [] }) {
   return (
     <ul className="catalog-preview">
-      <li>
-        <ProductTile></ProductTile>
-      </li>
-
-      <li>
-        <ProductTile></ProductTile>
-      </li>
-
-      <li>
-        <ProductTile></ProductTile>
-      </li>
-
-      <li>
-        <ProductTile></ProductTile>
-      </li>
+      {images.map((image, index) => (
+        <li key={index}>
+          <ProductTile
+            productImage={image.main}
+            altImage={image.alt}
+          ></ProductTile>
+        </li>
+      ))}
     </ul>
   );
 }
