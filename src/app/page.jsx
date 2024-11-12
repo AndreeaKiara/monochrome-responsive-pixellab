@@ -6,11 +6,11 @@ import HomeContent from '@/components/home/HomeContent';
 const productImages1 = [
   {
     main: '/images/products/recently_viewed_thumbnail_2-5.png',
-    alt: '/images/products/recently_viewed_thumbnail_2-5.png',
+    alt: '/images/products/recently_viewed_thumbnail_2-1.png',
   },
   {
     main: '/images/products/recently_viewed_thumbnail_2-1.png',
-    alt: '/images/products/recently_viewed_thumbnail_2-5.png',
+    alt: '/images/products/recently_viewed_thumbnail_2-10.png',
   },
   {
     main: '/images/products/recently_viewed_thumbnail_2-2.png',
@@ -29,7 +29,7 @@ const productImages2 = [
   },
   {
     main: '/images/products/recently_viewed_thumbnail_2-5.png',
-    alt: '/images/products/recently_viewed_thumbnail_2-5.png',
+    alt: '/images/products/recently_viewed_thumbnail_2-2.png',
   },
   {
     main: '/images/products/recently_viewed_thumbnail_2-2.png',
@@ -44,11 +44,11 @@ const productImages2 = [
 const productImages3 = [
   {
     main: '/images/products/recently_viewed_thumbnail_2-7.png',
-    alt: '/images/products/recently_viewed_thumbnail_2-5.png',
+    alt: '/images/products/recently_viewed_thumbnail_2-8.png',
   },
   {
     main: '/images/products/recently_viewed_thumbnail_2-2.png',
-    alt: '/images/products/recently_viewed_thumbnail_2-5.png',
+    alt: '/images/products/recently_viewed_thumbnail_2-15.png',
   },
   {
     main: '/images/products/recently_viewed_thumbnail_2-10.png',
@@ -63,11 +63,11 @@ const productImages3 = [
 const productImages4 = [
   {
     main: '/images/products/recently_viewed_thumbnail_2-3.png',
-    alt: '/images/products/recently_viewed_thumbnail_2-5.png',
+    alt: '/images/products/recently_viewed_thumbnail_2-1.png',
   },
   {
     main: '/images/products/recently_viewed_thumbnail_2-5.png',
-    alt: '/images/products/recently_viewed_thumbnail_2-5.png',
+    alt: '/images/products/recently_viewed_thumbnail_2-3.png',
   },
   {
     main: '/images/products/recently_viewed_thumbnail_2-1.png',

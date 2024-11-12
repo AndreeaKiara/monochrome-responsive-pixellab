@@ -4,9 +4,17 @@
     grid-template-columns: repeat(2, 2fr);
     gap: 24px;
 
+    li:nth-child(n + 3) {
+      display: none;
+    }
+
     @include media-breakpoint-up(lg) {
       grid-template-columns: repeat(4, 1fr);
       gap: 3.036273%;
+
+      li:nth-child(n + 3) {
+        display: inline-block;
+      }
     }
   }
 }

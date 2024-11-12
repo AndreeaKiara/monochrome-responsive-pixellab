@@ -4,7 +4,12 @@ export default function ProductTile({ productImage, altImage }) {
       <header className="product-tile-header">
         <a href="/" title="Monochrome">
           <picture className="product-tile-image">
-            <img src={productImage} alt={altImage} />
+            <img
+              src={productImage}
+              alt="Monochrome"
+              className="d-none d-lg-block"
+            />
+            <img src={altImage} alt="Monochrome" className="d-lg-none" />
           </picture>
         </a>
 
