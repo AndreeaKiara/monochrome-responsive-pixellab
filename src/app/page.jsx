@@ -14,11 +14,9 @@ const productImages1 = [
   },
   {
     main: '/images/products/recently_viewed_thumbnail_2-2.png',
-    alt: '/images/products/recently_viewed_thumbnail_2-5.png',
   },
   {
     main: '/images/products/recently_viewed_thumbnail_2-3.png',
-    alt: '/images/products/recently_viewed_thumbnail_2-5.png',
   },
 ];
 
@@ -33,49 +31,43 @@ const productImages2 = [
   },
   {
     main: '/images/products/recently_viewed_thumbnail_2-2.png',
-    alt: '/images/products/recently_viewed_thumbnail_2-5.png',
   },
   {
     main: '/images/products/recently_viewed_thumbnail_2-7.png',
-    alt: '/images/products/recently_viewed_thumbnail_2-5.png',
   },
 ];
 
 const productImages3 = [
   {
     main: '/images/products/recently_viewed_thumbnail_2-7.png',
-    alt: '/images/products/recently_viewed_thumbnail_2-8.png',
+    alt: '/images/products/recently_viewed_thumbnail_2-1.png',
   },
   {
     main: '/images/products/recently_viewed_thumbnail_2-2.png',
-    alt: '/images/products/recently_viewed_thumbnail_2-15.png',
+    alt: '/images/products/recently_viewed_thumbnail_2-3.png',
   },
   {
     main: '/images/products/recently_viewed_thumbnail_2-10.png',
-    alt: '/images/products/recently_viewed_thumbnail_2-5.png',
   },
   {
     main: '/images/products/recently_viewed_thumbnail_2-5.png',
-    alt: '/images/products/recently_viewed_thumbnail_2-5.png',
   },
 ];
 
 const productImages4 = [
   {
     main: '/images/products/recently_viewed_thumbnail_2-3.png',
-    alt: '/images/products/recently_viewed_thumbnail_2-1.png',
+    alt: '/images/products/recently_viewed_thumbnail_2-8.png',
   },
   {
     main: '/images/products/recently_viewed_thumbnail_2-5.png',
-    alt: '/images/products/recently_viewed_thumbnail_2-3.png',
+    alt: '/images/products/recently_viewed_thumbnail_2-15.png',
   },
   {
     main: '/images/products/recently_viewed_thumbnail_2-1.png',
-    alt: '/images/products/recently_viewed_thumbnail_2-5.png',
   },
   {
     main: '/images/products/recently_viewed_thumbnail_2-5.png',
-    alt: '/images/products/recently_viewed_thumbnail_2-5.png',
   },
 ];
 
@@ -111,7 +103,7 @@ export default function Home() {
           <HomeCatalogPreview
             title="WOMEN'S"
             secondaryTitle="MEN'S"
-            images={productImages3}
+            images={productImages4}
             index={2}
           ></HomeCatalogPreview>
         </div>
@@ -120,7 +112,7 @@ export default function Home() {
           <HomeCatalogPreview
             title="MEN'S"
             secondaryTitle="WOMEN'S"
-            images={productImages4}
+            images={productImages3}
             index={3}
           ></HomeCatalogPreview>
         </div>
