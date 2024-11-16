@@ -67,7 +67,7 @@ const productImages4 = [
     main: '/images/products/recently_viewed_thumbnail_2-1.png',
   },
   {
-    main: '/images/products/recently_viewed_thumbnail_2-5.png',
+    main: '/images/products/recently_viewed_thumbnail_2-15.png',
   },
 ];
 
