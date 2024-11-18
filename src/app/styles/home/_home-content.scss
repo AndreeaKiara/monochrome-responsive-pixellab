@@ -11,6 +11,18 @@
     flex-direction: row;
   }
 
+  &-picture {
+    width: 320px;
+
+    img {
+      width: 100%;
+
+      @include media-breakpoint-up(lg) {
+        width: auto;
+      }
+    }
+  }
+
   &-text {
     p {
       font-family: 'Roboto', sans-serif;

@@ -119,7 +119,7 @@ export default function Header2() {
           </ul>
         </nav>
 
-        <div className="header-search d-block d-lg-none container">
+        <nav className="header-search d-block d-lg-none container">
           <ul>
             <li>
               <button type="button" title="Menu">
@@ -144,7 +144,7 @@ export default function Header2() {
           <a href="/" title="New in" class="btn-new-entries d-lg-none">
             New in
           </a>
-        </div>
+        </nav>
 
         <div className="header-primary-banner d-block d-lg-none"></div>
       </section>

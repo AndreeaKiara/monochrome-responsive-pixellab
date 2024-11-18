@@ -84,7 +84,6 @@ export default function Home() {
             title="New Stuff"
             secondaryTitle="Spring Collection"
             images={productImages1}
-            index={0}
           ></HomeCatalogPreview>
         </div>
 
@@ -93,7 +92,6 @@ export default function Home() {
             title="Most loved"
             secondaryTitle="Best reviewed"
             images={productImages2}
-            index={1}
           ></HomeCatalogPreview>
         </div>
 
@@ -104,7 +102,7 @@ export default function Home() {
             title="WOMEN'S"
             secondaryTitle="MEN'S"
             images={productImages4}
-            index={2}
+            viewAll
           ></HomeCatalogPreview>
         </div>
 
@@ -113,7 +111,7 @@ export default function Home() {
             title="MEN'S"
             secondaryTitle="WOMEN'S"
             images={productImages3}
-            index={3}
+            viewAll
           ></HomeCatalogPreview>
         </div>
       </main>

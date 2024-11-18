@@ -13,15 +13,15 @@ export default function ProductTile({ productImage, altImage }) {
           </picture>
         </a>
 
-        <a href="/" className="product-fav" title="Add to favourites">
+        <button className="product-fav" title="Add to favourites">
           <i className="fa-regular fa-heart"></i>
-        </a>
+        </button>
 
-        <h1 className="product-tile-title">
+        <p className="product-tile-title">
           <a href="/" title="Monochrome">
             Monochrome
           </a>
-        </h1>
+        </p>
       </header>
 
       <section className="product-tile-pricing">

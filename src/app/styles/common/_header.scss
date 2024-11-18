@@ -33,6 +33,10 @@
         ul {
           display: flex;
           gap: 20px;
+
+          @include media-breakpoint-between(lg, xl) {
+            flex-wrap: wrap;
+          }
         }
       }
 
@@ -60,14 +64,32 @@
           display: flex;
           gap: 20px;
           align-items: center;
+
+          @include media-breakpoint-between(lg, xl) {
+            flex-wrap: wrap-reverse;
+            transform: translateX(42px);
+          }
         }
       }
     }
   }
 
   .header-search {
-    padding: 0 32px;
+    padding: 0 10px;
     position: relative;
+
+    @media (min-width: 360px) {
+      padding: 0 32px;
+    }
+
+    ul {
+      gap: 12px;
+      justify-content: space-around;
+
+      @include media-breakpoint-up(sm) {
+        justify-content: space-between;
+      }
+    }
 
     &-bar {
       border: 1px solid #ccc;
@@ -83,7 +105,12 @@
       button {
         border: none;
         background: none;
-        padding: 6px 12px;
+        padding: 0;
+
+        @media (min-width: 360px) {
+          padding: 6px 12px;
+          margin-right: 6px;
+        }
       }
 
       input {

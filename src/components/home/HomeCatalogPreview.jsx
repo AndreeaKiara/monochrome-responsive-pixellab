@@ -4,7 +4,7 @@ export default function HomeCatalogPreview({
   title,
   secondaryTitle,
   images,
-  index,
+  viewAll,
 }) {
   return (
     <section className="home-catalog-preview container">
@@ -14,7 +14,7 @@ export default function HomeCatalogPreview({
       </header>
 
       <CatalogPreview images={images}></CatalogPreview>
-      {(index === 2 || index === 3) && (
+      {viewAll && (
         <a
           href="/"
           title="View all products"
